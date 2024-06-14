@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 98%;
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  padding: 15px;
+  margin-top: 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.classification {
+  font-weight: 600;
+  color: #28a745;
+}
+
+.metrics-container {
+  margin-top: 30px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #444;
+  font-weight: 300;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.metric {
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.metric-title {
+  font-weight: 500;
+  color: #333;
+}
+
+.metric-value {
+  font-weight: 600;
+  color: #28a745;
+}
+
+.confusion-matrix {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.confusion-matrix th,
+.confusion-matrix td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.confusion-matrix th {
+  background-color: #e9ecef;
+  color: #333;
+  font-weight: 500;
+}
